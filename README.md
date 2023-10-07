@@ -14,7 +14,7 @@ Working in 5 teams, students had to achieve their team objectives while ensuring
 
 ## Video Overview
 
-[![COSMOS 2022 Cluster 13]([https://img.youtube.com/vi/VEP8hvSK_jM/0.jpg)](https://www.youtube.com/watch?v=VEP8hvSK_jM](https://youtu.be/JDAdhomcbdE?si=58rdXYM5HxU2llIk&t=847))
+[![COSMOS 2022 Cluster 13]([https://youtu.be/JDAdhomcbdE?si=58rdXYM5HxU2llIk&t=847])
 
 ## Teams
 
