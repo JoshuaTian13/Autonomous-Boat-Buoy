@@ -12,11 +12,6 @@ Students explored and applied principles of autonomous robots, microcontrollers,
 
 Working in 5 teams, students had to achieve their team objectives while ensuring that their work integrated seemlessly with the work of the other teams.  This required teams to identify goals, project timelines, and protocols for communication between devices and team inputs and outputs.
 
-## Video Overview
-
-[![COSMOS 2022 Cluster 13](https://img.youtube.com/vi/VEP8hvSK_jM/0.jpg)](https://youtu.be/JDAdhomcbdE?si=58rdXYM5HxU2llIk&t=847)
-
-
 ## Teams
 
 1. Boat
