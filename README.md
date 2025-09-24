@@ -19,21 +19,11 @@ The project applies principles of autonomous robotics, microcontrollers, and dat
 
 <img src="./1-boat/boat-team-images/electronics-boxed.jpg" alt="overhead" height="400">
 
-### Buoy
+### Buoy & Telemetry
 - Designed and constructed buoy-based instrumentation for water quality data collection.  
 - Built two buoy variants:  
   - One for collecting surface data with instrumentation submerged off the sides.  
-  - One with a submersible payload for lowering and raising instruments to collect vertical profiles of water quality data.  
-
-### Data Acquisition
-- Calibrated and oversampled sensor data to improve accuracy.  
-- Programmed microcontrollers to acquire and relay sensor readings to the telemetry subsystem.  
-- Established communication protocols and data formats for reliable integration between acquisition and telemetry.  
-
-<img src="./1-boat/images/182211223-1b56824c-7c58-463b-803d-c1d5286bc7ce.png" alt="Close-up of sensor modules" height="400">
-
-
-### Telemetry
+  - One with a submersible payload for lowering and raising instruments to collect vertical profiles of water quality data.
 - Implemented data communication between buoys and the base station using long-range radio (LoRa).  
 - Developed microcontroller firmware to:
   - Receive sensor data via serial connection.  
@@ -42,7 +32,12 @@ The project applies principles of autonomous robotics, microcontrollers, and dat
 - Configured base station hardware to receive LoRa transmissions and forward them to a Linux-based server.  
 <img src="1-boat/images/68747470733a2f2f692e696d6775722e636f6d2f504a7578614b372e6a7067.jfif" alt="telemetry" height="400">
 
+### Data Acquisition
+- Calibrated and oversampled sensor data to improve accuracy.  
+- Programmed microcontrollers to acquire and relay sensor readings to the telemetry subsystem.  
+- Established communication protocols and data formats for reliable integration between acquisition and telemetry.  
 
+<img src="./1-boat/images/182211223-1b56824c-7c58-463b-803d-c1d5286bc7ce.png" alt="Close-up of sensor modules" height="400">
 
 
 ### Data Storage and Analysis
