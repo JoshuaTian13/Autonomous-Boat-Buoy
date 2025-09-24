@@ -2,6 +2,8 @@
 
 This project focuses on the development of affordable instrumentation and robotic devices to monitor, generate, and analyze water quality data at scale. The system integrates an autonomous surface vehicle, buoy-based instrumentation, and long-range telemetry to enable real-time environmental monitoring across lake environments.  
 
+![Boat and Buoy on Lake](./1-boat/boat-team-images/lake-day.jpg)
+
 The project applies principles of autonomous robotics, microcontrollers, and data visualization/analysis, while adopting engineering best practices in system integration, testing, and documentation.
 
 ---
@@ -14,24 +16,32 @@ The project applies principles of autonomous robotics, microcontrollers, and dat
 - Designed and 3D-printed enclosures to protect electronics from water exposure.  
 - Modified the steering system for improved agility and responsiveness.  
 
+![Suggested photo: boat with enclosures mounted / overhead view](./images/boat_overview.jpg)
+
 ### Buoy
 - Designed and constructed buoy-based instrumentation for water quality data collection.  
 - Built two buoy variants:  
   - One for collecting surface data with instrumentation submerged off the sides.  
   - One with a submersible payload for lowering and raising instruments to collect vertical profiles of water quality data.  
 
+![Suggested photo: buoy prototype floating in pool/lake](./images/buoy_overview.jpg)
+
 ### Data Acquisition
 - Calibrated and oversampled sensor data to improve accuracy.  
 - Programmed microcontrollers to acquire and relay sensor readings to the telemetry subsystem.  
 - Established communication protocols and data formats for reliable integration between acquisition and telemetry.  
 
+![Suggested photo: close-up of sensor modules connected to Arduino/ESP32](./images/data_acquisition.jpg)
+
 ### Telemetry
 - Implemented data communication between buoys and the base station using long-range radio (LoRa).  
-- Developed microcontroller firmware to:  
+- Developed microcontroller firmware to:
   - Receive sensor data via serial connection.  
   - Combine readings with GPS coordinates and timestamps.  
   - Transmit the combined packet via LoRa to the base station.  
 - Configured base station hardware to receive LoRa transmissions and forward them to a Linux-based server.  
+
+![Suggested photo: LoRa modules / telemetry setup](./images/telemetry_modules.jpg)
 
 ### Data Storage and Analysis
 - Configured the server to ingest data received via serial from the telemetry subsystem.  
@@ -39,8 +49,29 @@ The project applies principles of autonomous robotics, microcontrollers, and dat
 - Developed Python scripts to populate the database in real time.  
 - Created a Python-based dashboard and Jupyter notebooks for visualization, modeling, and analysis of collected data.  
 
+![Suggested photo: screenshot of dashboard/graphs](./images/data_dashboard.png)
+
 ---
 
 ## Data Flow
 
 ![Data Flow](./posters/COSMOS22-H40_data_flow.png)
+
+---
+
+## References
+
+- **Boat system overview**  
+  ![Boat](./posters/COSMOS22-C13-1-boat.png)
+
+- **Buoy instrumentation**  
+  ![Buoy](./posters/COSMOS22-C13-2-buoy.png)
+
+- **Data acquisition process**  
+  ![Data Acquisition](./posters/COSMOS22-C13-3-data_acquisition.png)
+
+- **Telemetry communication**  
+  ![Telemetry](./posters/COSMOS22-C13-4-telemetry.png)
+
+- **Data storage and analysis**  
+  ![Data Storage and Analysis](./posters/COSMOS22-C13-5_data_storage_and_analysis.png)
