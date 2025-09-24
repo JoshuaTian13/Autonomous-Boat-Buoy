@@ -2,7 +2,8 @@
 
 This project focuses on the development of affordable instrumentation and robotic devices to monitor, generate, and analyze water quality data at scale. The system integrates an autonomous surface vehicle, buoy-based instrumentation, and long-range telemetry to enable real-time environmental monitoring across lake environments.  
 
-![Boat and Buoy on Lake](./1-boat/boat-team-images/lake-day.jpg)
+
+<img src="./1-boat/boat-team-images/lake-day.jpg" alt="lakeboat" height="400">
 
 The project applies principles of autonomous robotics, microcontrollers, and data visualization/analysis, while adopting engineering best practices in system integration, testing, and documentation.
 
