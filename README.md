@@ -29,7 +29,8 @@ The project applies principles of autonomous robotics, microcontrollers, and dat
 - Programmed microcontrollers to acquire and relay sensor readings to the telemetry subsystem.  
 - Established communication protocols and data formats for reliable integration between acquisition and telemetry.  
 
-![Suggested photo: close-up of sensor modules connected to Arduino/ESP32](./1-boat/images/182211223-1b56824c-7c58-463b-803d-c1d5286bc7ce.png)
+<img src="./1-boat/images/182211223-1b56824c-7c58-463b-803d-c1d5286bc7ce.png" alt="Close-up of sensor modules" width="500" height="400">
+
 
 ### Telemetry
 - Implemented data communication between buoys and the base station using long-range radio (LoRa).  
