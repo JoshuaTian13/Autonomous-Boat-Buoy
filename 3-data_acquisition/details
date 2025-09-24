@@ -1,0 +1,25 @@
+# Data Acquisition – Detailed Notes
+
+## Project Purpose
+Support the autonomous boat and buoy system by assuring accurate data readings and providing microcontroller code to transmit capsule sensor data.
+
+## Tasks
+- Hardware: sensor calibration, wiring, programming.
+- Software: serial communication (ESP32 ↔ Arduino).
+
+## Materials
+- Microcontrollers: Arduino UNO, MEGA, NANO; ESP32
+- Sensors: pH, TDS, temperature
+- Calibration solutions for pH, TDS, and temperature
+- Prototyping supplies: jumper wires, protoboard, breadboard, solder
+- Hall effect sensor for capsule retrieval
+- Software: Arduino IDE, GitHub, Onshape, Google Photos, Discord
+
+## Folder Navigation
+- **old/** – early code experiments (not used)
+- **arduinomegaserial/** – serial communication between two Arduino boards
+- **esp32-serial/** – serial communication between ESP32 and Arduino
+- **finalized/** – final tested code
+
+## Notes
+See included screenshots for pinouts, wiring diagrams, and calibration procedures.
