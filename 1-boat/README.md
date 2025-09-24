@@ -17,4 +17,4 @@ This component focused on converting a Traxxas high-speed RC Boat into an autono
 - Successfully demonstrated autonomous navigation across waypoints at Miramar Lake.  
 - Boat was able to follow GPS paths while allowing data collection at predetermined stops.  
 
-![Boat Poster](../posters/COSMOS22-C13-1-boat.png)
+
