@@ -16,7 +16,7 @@ The project applies principles of autonomous robotics, microcontrollers, and dat
 - Designed and 3D-printed enclosures to protect electronics from water exposure.  
 - Modified the steering system for improved agility and responsiveness.  
 
-![Suggested photo: boat with enclosures mounted / overhead view](./1-boat/boat-team-images/electronics-boxed.jpg)
+<img src="./1-boat/boat-team-images/electronics-boxed.jpg" alt="overhead" height="400">
 
 ### Buoy
 - Designed and constructed buoy-based instrumentation for water quality data collection.  
