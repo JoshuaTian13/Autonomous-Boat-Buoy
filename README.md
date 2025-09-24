@@ -51,7 +51,6 @@ The project applies principles of autonomous robotics, microcontrollers, and dat
 - Developed Python scripts to populate the database in real time.  
 - Created a Python-based dashboard and Jupyter notebooks for visualization, modeling, and analysis of collected data.  
 
-![Suggested photo: screenshot of dashboard/graphs](./images/data_dashboard.png)
 
 ---
 
@@ -59,21 +58,3 @@ The project applies principles of autonomous robotics, microcontrollers, and dat
 
 ![Data Flow](./posters/COSMOS22-H40_data_flow.png)
 
----
-
-## References
-
-- **Boat system overview**  
-  ![Boat](./posters/COSMOS22-C13-1-boat.png)
-
-- **Buoy instrumentation**  
-  ![Buoy](./posters/COSMOS22-C13-2-buoy.png)
-
-- **Data acquisition process**  
-  ![Data Acquisition](./posters/COSMOS22-C13-3-data_acquisition.png)
-
-- **Telemetry communication**  
-  ![Telemetry](./posters/COSMOS22-C13-4-telemetry.png)
-
-- **Data storage and analysis**  
-  ![Data Storage and Analysis](./posters/COSMOS22-C13-5_data_storage_and_analysis.png)
