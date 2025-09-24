@@ -44,22 +44,3 @@ The project applies principles of autonomous robotics, microcontrollers, and dat
 ## Data Flow
 
 ![Data Flow](./posters/COSMOS22-H40_data_flow.png)
-
----
-
-## References
-
-- **Boat system overview**  
-  ![Boat](./posters/COSMOS22-C13-1-boat.png)
-
-- **Buoy instrumentation**  
-  ![Buoy](./posters/COSMOS22-C13-2-buoy.png)
-
-- **Data acquisition process**  
-  ![Data Acquisition](./posters/COSMOS22-C13-3-data_acquisition.png)
-
-- **Telemetry communication**  
-  ![Telemetry](./posters/COSMOS22-C13-4-telemetry.png)
-
-- **Data storage and analysis**  
-  ![Data Storage and Analysis](./posters/COSMOS22-C13-5-data_storage_and_analysis.png)
