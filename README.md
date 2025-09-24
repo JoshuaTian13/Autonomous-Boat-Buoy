@@ -40,8 +40,10 @@ The project applies principles of autonomous robotics, microcontrollers, and dat
   - Combine readings with GPS coordinates and timestamps.  
   - Transmit the combined packet via LoRa to the base station.  
 - Configured base station hardware to receive LoRa transmissions and forward them to a Linux-based server.  
+<img src="1-boat/images/182211223-1b56824c-7c58-463b-803d-c1d5286bc7ce.png" alt="telemetry" height="400">
 
-![Suggested photo: LoRa modules / telemetry setup](./images/telemetry_modules.jpg)
+
+
 
 ### Data Storage and Analysis
 - Configured the server to ingest data received via serial from the telemetry subsystem.  
