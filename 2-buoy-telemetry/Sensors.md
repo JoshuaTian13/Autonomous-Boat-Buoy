@@ -1,15 +1,25 @@
-For our sensors, we used a pH probe sensor, a temperature sensor, and a total-dissolved-solids (TDS) sensor
+# Sensor Integration and Mounting
 
-![ph sensor](https://user-images.githubusercontent.com/70926137/182680141-5dc7bae6-08c7-4c90-97dc-01ce8c73e659.png) ![temp sensor](https://user-images.githubusercontent.com/70926137/182680225-b472e310-0f4d-4d31-a4b0-945bbe007790.png) ![tds sensor](https://user-images.githubusercontent.com/70926137/182680311-7f11f9d8-bcc3-4146-9aea-f16d3ca534b1.png)
+The buoy measured three water-quality properties:
 
-To mount our sensors we decided to create a 3D printed part that can hold the sensors that we could then use hot glue or epoxy to affix it to the side of the buoy. 
-We needed to create three diferent cad models so we can mount ech of our sensors. 
-The first CAD design was created to hold the [Tempature sensor]([https://pages.github.com/](https://cad.onshape.com/documents/50829009a772264103478846/w/c708d828623270150ef75e4e/e/50d666d81c3724e23ea0e39a)). 
-It worked by having a curved side that matched the curvatiure of the buoy and a lego hand on the oposite side that would hold the wire. 
-It would then be glued in to ensure no further movement. 
+- **pH** using an analog probe and interface board
+- **Temperature** using a waterproof probe
+- **Total dissolved solids (TDS)** using an immersed conductivity probe
 
-Then next design was the [TDS sensor holder]([https://cad.onshape.com/documents/0d5282bba14a224c1724f533/w/94f34ff72025ca8cc00cb65f/e/ccd35523a7df853023de6571))
-We designed it so we can slide the TDS sensor into it before glueing the curved edge to the side of the buoy.
-We initial planned to only have it hold the sensor but while testing we realised that the TDs sensor probe was being damaged during testing so we designed a attachment that covers the pins so they would not be damaged.
+The acquisition electronics calibrated and sampled each channel before forwarding a single measurement record to the telemetry controller. The LoRa firmware then combined those readings with GPS coordinates, a timestamp, and a boat identifier for shore-side ingestion.
 
-The final
+## Mechanical integration
+
+Each probe required a custom mount that followed the curvature of the buoy and protected the sensing element while keeping it exposed to the water:
+
+- The temperature-probe mount used a curved base and clip to constrain the cable.
+- The TDS mount used a slide-in enclosure and a protective extension around the exposed pins after testing revealed that the probe could be damaged during deployment.
+- The pH mount positioned the probe vertically and kept the sensing tip clear of the hull.
+
+Printable and editable design artifacts are preserved in [`Files/`](Files), including STEP models for the pH, temperature, and TDS mounts and STL/STEP iterations for the motorized spool mechanism.
+
+## Related firmware
+
+- [`buoy1-LoRa-GPS.ino`](Files/buoy1-LoRa-GPS.ino) assembles GPS, timestamp, sensor, and device fields and transmits them over LoRa.
+- [`buoy-with-motor.ino`](Files/buoy-with-motor.ino) deploys and retracts a submerged sensor payload using encoder feedback and a magnetic home sensor.
+- [`receiver.ino`](receiver.ino) receives LoRa packets, reports RSSI, displays packet contents, and forwards the payload over serial.
